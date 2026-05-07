@@ -5,7 +5,7 @@ import pandas as pd
 import altair as alt
 
 # --- 1. 設定：全員共通の簡易パスワード ---
-COMMON_PASSWORD = "password123" # ← Supabaseで設定した共通パスワード
+COMMON_PASSWORD = "pass1234" # ← Supabaseで設定した共通パスワード
 
 # --- 2. Supabaseの初期化 ---
 @st.cache_resource
